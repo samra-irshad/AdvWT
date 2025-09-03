@@ -53,6 +53,22 @@ conda activate AdvWT
   - Pretrained clean-to-damage traffic sign translation model is available for download at [Hugging Face](https://huggingface.co/sam-ir/Advwt-target-models)
  
 ## Quick Start
-   - Train Clean-to-Damage traffic sign image translation model
+   - Insert the paths of checkpoints and test set main_attack.py to test our attack:
+```bash
+python main_attack.py --checkpoint /path/to/ckpt.pth --input_test /path/to/test
+```
 
+## Acknowledgements
+This code is based on the [StarGAN v2](https://github.com/clovaai/stargan-v2) and [SmoothLatentSpace](https://github.com/yhlleo/SmoothingLatentSpace). Thanks to the contributors of this project.
+
+## Citation
+```bash
+@article{irshad2025adversarial,
+  title={Adversarial Wear and Tear: Exploiting Natural Damage for Generating Physical-World Adversarial Examples},
+  author={Irshad, Samra and Lee, Seungkyu and Navab, Nassir and Lee, Hong Joo and Kim, Seong Tae},
+  journal={arXiv preprint arXiv:2503.21164},
+  year={2025}
+}
+```
+If you have any questions, please contact me without hesitation (samra AT khu.ac.kr).
 
