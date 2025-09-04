@@ -21,7 +21,7 @@ This is the official implementation of our paper: https://arxiv.org/abs/2503.211
   <br>
 </p>
 
-### Demonstration of Adversarial Wear-and-Tear (AdvWT)
+### Demonstration of Adversarial Wear-and-Tear Attack
 <!-- centered, fixed width, clickable to full-res -->
 <p align="center">
   <img src="assets/attack_seq.gif" alt="Attack sequence" width="220">
